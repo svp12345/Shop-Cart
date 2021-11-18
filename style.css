@@ -1,0 +1,690 @@
+body{
+    margin:auto 0px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.upper{
+     display: flex;
+    align-items: center;
+    padding: 5px;
+    }
+.upper ul {
+    float:right;
+}
+.upper button a{
+    text-decoration:none;
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding-top: 10px;
+    padding-right: 3em;
+    padding-left: 3em;
+    color:white;
+}
+nav ul li a:hover{
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+     padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav ul{
+    margin: auto;
+    background-color: midnightblue;
+    float: left; 
+    width: 100%;
+    position: fixed;
+    height: 40px;
+}
+nav{
+    margin: 0px;
+  width: 120%;
+    height: 50px; 
+    position: fixed;
+     left: 0;
+}
+.fa fa-shopping-cart{
+ color: white;
+}
+.container{
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col1{
+    padding-left: 30px;
+    flex-basis: 30%;
+}
+.col1 h1{
+    font-size: 48px;
+    color: midnightblue;
+    padding-left: 20px;
+    padding-top: 70px;
+}
+.col2{
+    flex-basis: 30%;
+    min-width: 800px;
+}
+.col2 img{
+    max-width: 700px;
+    max-height: 700px;
+    padding-right: 60px;
+    padding-left: 80px;
+    padding-top: 100px;
+}
+.col1 a{
+    text-decoration: none;
+}
+.btn{
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    padding: 8px 30px;
+    margin: 10px 0px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background-color: orange;
+    color: black;
+}
+.category{
+    margin: 50px 0;
+}
+.col3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.col3 img{
+    width: 90%;
+}
+.small-container{
+    max-width: 2000px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col4{
+    flex-basis: 30%;
+    padding: 20px;
+    min-width: 200px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+    background-color: lightgray;
+    box-shadow: 10px 10px 3px darkgray;
+}
+.col4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin: auto 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    color:midnightblue;
+}
+h4{
+    color:black;
+    font-size: 20px;
+}
+.col4 p{
+font-size: 18px;
+font-weight: bold;    
+}
+.ratings{
+    color:darkorange;
+}
+.col4:hover{
+    transform: translateY(-10px);
+}
+.heading{
+     text-align: center;
+    font-weight: bold;
+    margin: auto 80px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color:darkblue;
+    padding-left: 140px;
+}
+.header1 a{
+    text-decoration: none;
+}
+.header1{
+    margin: auto 0px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    min-height: 10px;
+}
+.btn1{
+     display: inline-block;
+    background-color: orangered;
+    color: white;
+    padding: 20px 30px;
+    margin: 50px 0px;
+    border-radius: 30px;
+    transition: background 0.5s;
+    margin-left: 20px;
+}
+.btn1:hover{
+    background-color: orange;
+}
+.body{
+    margin:auto;
+    width: 100%;
+}
+.offer .col2{
+    flex-basis: 30%;
+    min-width: 300px;
+}
+.offer .col2 img{
+    max-width: 100%;
+    padding-right: 30px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+small{
+    color:#555;
+}
+.offer a{
+    text-decoration: none;
+}
+.category{
+    background-color: whitesmoke;
+}
+.offer{
+    background: whitesmoke;
+}
+.offer .col6{
+    flex-basis: 30%;
+    min-width: 300px;
+}
+.offer .col6 img{
+    max-width: 100%;
+    padding-right: 30px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.btn2{
+     display: inline-block;
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 0px;
+    transition: background 0.5s;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: orange;
+}
+footer{
+    display: inline-block;
+    background-color: midnightblue;
+    color: white;
+    font-weight: bold;
+    bottom:0;
+  width: 100%;
+  color: white;
+  text-align: center;
+    height: 50px;
+    position: fixed;
+}
+footer p{
+    font-size: 15px;
+    line-height: 2px;
+    padding-top: 10px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+      padding: 3px;
+}
+.contact h1{
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+    margin: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.form{
+    width: 80%;
+    height: auto;
+    max-width: 600px;
+    max-height: 700px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.txt{
+    border: 1px solid black;
+    margin: 8px 0px;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.txt label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.txt input,.txt textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.contact a{
+    text-decoration: none;
+}
+
+.btn3{
+     display: inline-block;
+    background-color: orangered;
+    color: white;
+    padding: 10px 0px;
+    margin-top: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+.btn3:hover{
+    color: black;
+    background-color: orange;
+}
+.btn4:hover{
+    color: black;
+    background-color: orange;
+}
+.btn4{
+     display: inline-block;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    padding: 8px 13px;
+    margin: 10px 0px;
+    border-radius: 30px;
+    transition: background 0.5s;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.header h1{
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+.col5{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+    background-color: lightgray;
+    box-shadow: 10px 10px 3px darkgray;
+}
+.col5 img{
+    width: 170px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.col5:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+    font-size: 25px;
+    color: orangered;
+}
+.col-5 h4{
+    color: black;
+    font-size: 30px;
+}
+.col5 p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.mission{
+    font-size: 35px;
+    font-weight: 500;
+}
+.search{
+    
+    position: absolute;
+    left: 85%;
+    top: 7%;
+    transform: translate(-60%,-10%);
+}
+.search-text{
+    border: none;
+    border-radius: 30px;
+    padding: 0 10;
+}
+.Btn{
+    position: absolute;
+    left: 89%;
+    top: 8%;
+}
+.submit{
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    padding: 10px 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+.submit:hover{
+    color: black;
+    background-color: orange;
+}
+.foot{
+    position: fixed;
+    margin:0;
+    height: 30px;
+    padding-bottom:13px;
+}
+.slideshow{
+    width: 700px;
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.middle{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navigation{
+   position: absolute;
+    bottom: 20px;
+    left: 20%;
+    display: flex;
+    transform: translate(-50%); 
+}
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bar:hover{
+    background: #fff;
+}
+input[name='r']{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.slider{
+    width: 20%;
+    transition: 0.6s;
+}
+.slider img{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: orangered;                    
+  color: white;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border-radius: 30px;
+     transition: background 0.5s;
+  display: inline-block;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
